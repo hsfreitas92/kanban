@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    scrollbar-width: 10px !important;
+}
+
+:root {
+    --purple: #7c3aed;
+    --white: #ffffff;
+    --white-100: #fbfaff;
+    --pink-200: #e2d6ff;
+    --pink-300: #cab3ff;
+    --gray-100: #e3e3e3;
+    --gray-200: #c7c7cd;
+    --gray-300: #7c7c8a;
+    --gray-400: #505059;
+    --brown-100: #756966;
+    --brown-200: #403937;
+}
+
+::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: 0px 4px 16px #EAE2FD;; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cab3ff; 
+    border-radius: 10px;
+  }
+  
+
+body {
+    background: var(--purple) !important;
+}
+
+input {
+    border: 1px solid var(--gray-300);
+}
