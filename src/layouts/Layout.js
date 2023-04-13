@@ -71,22 +71,6 @@ const Layout = ({ children }) => (
           </div>
         </div>
         <div className={styles.credits}>
-        Made by
-        <a
-          className={styles.nameFooter}
-          href="https://gsajulia.github.io/"
-          target="_blank"
-        >
-          Júlia
-        </a>
-        and
-        <a
-          className={styles.nameFooter}
-          href="https://rickazuo.github.io/portfolio/"
-          target="_blank"
-        >
-          Ricardo
-        </a>
         </div>
       </div>
       {children}
